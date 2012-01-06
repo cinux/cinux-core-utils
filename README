@@ -1,0 +1,25 @@
+* To build Cinux Core Utils:
+  
+  bash build.sh
+
+  If you are running a distribution other than Cinux, please install the dependencies
+  if needed, check README_libnet and README_libpcap
+
+* Author:
+
+  Constantine Apostolou <conmarap@gmail.com>
+  
+  For more information visit: 
+    1. http://conmarap.github.com/
+    2. http://www.osarena.net/
+
+* Disclaimer:
+
+  This is FREE SOFTWARE made to fulfill my passion for software and the magic hidden 
+  behind computers, bits and bytes. These programs are NOT made for hacking purposes
+  or to make a hackers/exploiters life easier. I was really close to keeping them 
+  closed source just to be sure, but its just fine as it is now.
+  
+  Pleas DO NOT use my e-mail to ask questions about the code or the distribution, instead
+  use the "Questions" section on launchpad (you'll be able to see the button on the 
+  homepage [1]

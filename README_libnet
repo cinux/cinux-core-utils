@@ -1,0 +1,13 @@
+* Configure and compile the package:
+
+  ./configure --sysconfdir=/etc \
+    --mandir=/usr/share/man \
+    --localstatedir=/var --host=$CLFS_TARGET32
+  make
+
+* Install the package:
+
+  make install
+
+  If you are building on a system different than 
+  Cinux, use "sudo" to install.

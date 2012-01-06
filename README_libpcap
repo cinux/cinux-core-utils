@@ -1,0 +1,21 @@
+* Needed packages:
+
+  If you are running a system different than
+  Cinux, you need to check weather you have
+  bison and flex installed to your system, if
+  you don't, please install them otherwise 
+  you won't be able to build this package.
+
+* Compile the package:
+
+  ./configure --prefix=/usr &&
+  make
+
+* Install the package
+
+  make install &&
+  install -v -m755 -d /usr/share/doc/libpcap-1.0.0 &&
+  install -v -m644 doc/*{html,txt} /usr/share/doc/libpcap-1.0.0
+
+  If you are building on a system different than 
+  Cinux, use "sudo" 
